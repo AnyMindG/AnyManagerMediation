@@ -4,7 +4,7 @@
 // swift-tools-version: 6.0
 import PackageDescription
 
-// version 2.2.1
+// version 10000.5.0
 
 let package = Package(
     name: "AnyManagerMediation",
@@ -14,14 +14,12 @@ let package = Package(
             name: "AnyManagerMediation",
             targets: ["AnyManagerMediation"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0"),
-    ],
+
     targets: [
         .binaryTarget(
             name: "AnyManagerMediation",
-            url: "https://github.com/AnyMindG/AnyManagerMediation/releases/download/2.2.1/AnyManagerMediation.zip",
-            checksum: "887058455e2324c317ece4534e1e8e0452481621b86e3d860787a03af30ec815"
+            url: "https://github.com/AnyMindG/AnyManagerMediation/releases/download/10000.5.0/AnyManagerMediation.zip",
+            checksum: "3881725bedb103e02e6a93c2d61117e53c427eb2373e9f7f084e87a1d31026b2"
         ),
         .testTarget(
             name: "AnyManagerMediationTests",
