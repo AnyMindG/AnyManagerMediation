@@ -3,6 +3,7 @@
 
 import PackageDescription
 
+// version 2.2.1
 let package = Package(
     name: "AnyManagerMediation",
     platforms: [.iOS(.v12)],
@@ -13,7 +14,6 @@ let package = Package(
             targets: ["AnyManagerMediation"]),
     ],
     dependencies: [
-           .package(url: "https://github.com/AnyMindG/InMobiAdSDK.git", from: "1.1.0"),
            .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0"),
        ],
     targets: [
@@ -23,7 +23,6 @@ let package = Package(
             name: "AnyManagerMediation",
             dependencies: [
                         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
-                        .product(name: "InMobiAdSDK", package: "InMobiAdSDK"),
                     ],
             linkerSettings: [
                             .linkedFramework("WebKit"),

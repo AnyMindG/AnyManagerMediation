@@ -1,15 +1,6 @@
 {
-  "originHash" : "d4fa40d02486d2aad9f1937f41d08cdf8507e155149478b99079774a1a247430",
+  "originHash" : "31a0bb37b63a6e29bf5bc04d771f782cd88baea3cba13d13ab063b7579b6963e",
   "pins" : [
-    {
-      "identity" : "inmobiadsdk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AnyMindG/InMobiAdSDK.git",
-      "state" : {
-        "revision" : "46276486eb4285a57cf397297a95eed55af4fc0d",
-        "version" : "1.1.0"
-      }
-    },
     {
       "identity" : "swift-package-manager-google-mobile-ads",
       "kind" : "remoteSourceControl",
